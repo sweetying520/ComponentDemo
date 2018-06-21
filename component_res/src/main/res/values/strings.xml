@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Component_Res</string>
+
+    <string name="home">跳转到Home</string>
+    <string name="cart">跳转到Cart</string>
+    <string name="me">跳转到Me</string>
+</resources>

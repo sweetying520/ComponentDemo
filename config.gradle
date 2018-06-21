@@ -1,0 +1,33 @@
+ext {
+
+    isModule = false
+    moduleHome = false
+    moduleCart = false
+    moduleMe = false
+
+    android = [
+            compileSdkVersion       : 27,
+            applicationId           : "com.dream.componentdemo",
+            minSdkVersion           : 19,
+            targetSdkVersion        : 27,
+            versionCode             : 1,
+            versionName             : "1.0"
+    ]
+
+    dependencies = [
+            "junit"                     : 'junit:junit:4.12',
+            "runner"                    : 'com.android.support.test:runner:1.0.2',
+            "espresso-core"             : 'com.android.support.test.espresso:espresso-core:3.0.2',
+            "appcompat-v7"              : 'com.android.support:appcompat-v7:26.1.0',
+            "constraint-layout"         : 'com.android.support.constraint:constraint-layout:1.1.2',
+            "butterknife_compiler"      : 'com.jakewharton:butterknife-compiler:8.4.0',
+            "butterknife"               : 'com.jakewharton:butterknife:8.4.0',
+
+            //路由
+            "arouter_api"                    : 'com.alibaba:arouter-api:1.2.4',
+            "arouter_compiler"               : 'com.alibaba:arouter-compiler:1.1.4',
+            "arouter_annotation"             : 'com.alibaba:arouter-annotation:1.0.4'
+
+
+    ]
+}
